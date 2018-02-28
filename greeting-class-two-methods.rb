@@ -1,7 +1,8 @@
 class GreetingTwo
   def say_hello_pencho
     puts "Hello Pencho"
-  End
+  end
+  
   def say_hello_name(name)
     puts  "hello " + name
   end
