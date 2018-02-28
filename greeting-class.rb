@@ -1,8 +1,7 @@
 class Greeting
-    def say_hello(name)
-        puts "hello " + name
-    End
+  def initialize(name)
+    puts "hello " + name
+  end
 end
 
-a = Greeting.new   
-a.say_hello("DORA") 
+a = Greeting.new "Dora"  
